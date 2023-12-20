@@ -87,7 +87,7 @@ li a {
 .foto_perfil img {
     width: 80%;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px #00000045;
+    box-shadow: 10px 10px 0px #ff00bf;
 }
 
 .sobre_mim {
@@ -160,8 +160,10 @@ li a {
     margin-top: 10px;
     margin-bottom: 20px;
     width: 450px;
-    border-radius: 8px;
+    border-radius: 30px;
     transition: 0.5s;
+    padding: 3px;
+    padding-right: 5px;
 }
 
 .box p {
@@ -191,11 +193,11 @@ li a {
     margin-top: 50px;
 }
 .card{
-    height: 300px;
+    height: 400px;
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap:40px;
     background-color: #222222;
     color: #f5f5f5;
     border-radius: 20px;
